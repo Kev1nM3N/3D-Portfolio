@@ -13,6 +13,40 @@
   color-scheme: dark;
 }
 
+:root {
+  --cosmic-latte: #fff8e7;
+  --light-blue: #dbeafe;
+  --light-pink: #fce7f3;
+  --navy-blue: #000080;
+  --gold: #ffd700;
+  --coral: #ffd700;
+  --teal: teal;
+  --lavender: lavender;
+  --mint-light-green: #c7ffd8;
+  --skyblue: skyblue;
+  --sand-beige: #decab7;
+}
+
+nav a {
+  position: relative;
+}
+
+.link__hover-effect::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: var(--cosmic-latte);
+  width: 0;
+  right: 0;
+  bottom: -3px;
+  transition: all 200ms;
+}
+
+.link__hover-effect:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
