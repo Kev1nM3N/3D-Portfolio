@@ -11,11 +11,11 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Tech />
         <Works />
-        <Feedbacks />
-        <div className="relative z-0">
+        {/* <Feedbacks /> */}
+        <div className="relative z-0 h-[96vh]">
           <Contact />
           <StarsCanvas />
         </div>
