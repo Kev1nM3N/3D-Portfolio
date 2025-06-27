@@ -19,10 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  storeit,
+  ultraverse,
+  tarotapp
 } from "../assets";
 
 export const navLinks = [
@@ -81,20 +83,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -107,10 +101,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,30 +188,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "StoreIt Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This application is a file storage and management solution desgined to replicate google drive.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: storeit,
+    source_code_link: "https://github.com/Kev1nM3N/store-it-application",
   },
   {
-    name: "Job IT",
+    name: "NFT Marketplace",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Explore the world of NFT items with limited time offers and connect with like-minded people!",
     tags: [
       {
         name: "react",
@@ -236,13 +226,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ultraverse,
+    source_code_link: "https://github.com/Kev1nM3N/kevin-internship",
   },
   {
-    name: "Trip Guide",
+    name: "Tarot Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A sleek and responsive application to look up details on all tarot cards from Rider Watie Smith deck.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +247,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tarotapp,
+    source_code_link: "https://github.com/Kev1nM3N/newTarotApplication",
   },
 ];
 
